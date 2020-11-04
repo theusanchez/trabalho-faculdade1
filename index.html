@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata">
+    <title>Jogos</title>
+</head>
+<body>
+    <section class="mainSection">
+        <h1>Qual estilo de jogo você escolhe?</h1>
+        <div class="botoesEstilos">
+            <button onclick="mostrarJogo('MMO')">MMORPG</button>
+            <button onclick="mostrarJogo('MOBA')">MOBA</button>
+            <button onclick="mostrarJogo('FPS')">FPS</button>
+        </div>
+        <div class="containerConteudo">
+            <div style="display: none" class="conteudoDinamico" id="MMO">
+                <div class="left">
+                    <h1>World of Warcraft</h1>
+                    <p>World of Warcraft é um jogo de RPG multiplayer online lançado em 2004 pela Blizzard
+                     Entertainment. É o quarto jogo lançado no universo de fantasia Warcraft</p>
+                </div>
+                <div class="right">
+                    <h1>Tibia</h1>
+                    <p>Tibia é um RPG multiplayer online desenvolvido e publicado pela CipSoft. É um dos MMORPGs
+                     mais antigos e antigos, com uma popularidade que atingiu o pico em 2007</p>
+                </div>
+                <div class="left">
+                    <h1>Ragnarok</h1>
+                    <p>Ragnarok Online é um jogo de RPG multiplayer online criado pela Gravity baseado no
+                     manhwa Ragnarok de Lee Myung-jin. Foi lançado na Coréia do Sul em 31 de agosto de 2002 
+                     para Microsoft Windows.</p>
+                </div>
+            </div>
+            <div style="display: none" class="conteudoDinamico" id="MOBA">
+                <div class="left">
+                    <h1>League of Legends</h1>
+                    <p>League of Legends é um videogame multiplayer online de arena de batalha desenvolvido 
+                        e publicado pela Riot Games para Microsoft Windows e macOS. Originalmente inspirado 
+                        em Defense of the Ancients, o jogo segue um modelo freemium desde o seu lançamento 
+                        em 27 de outubro de 2009</p>
+                </div>
+                <div class="right">
+                    <h1>DOTA</h1>
+                    <p>Dota é uma série de videogames de estratégia desenvolvidos e publicados pela Valve. 
+                        A série começou em 2003 com o lançamento de Defense of the Ancients, um mod de 
+                        arena de batalha multiplayer online desenvolvido por fãs para o videogame 
+                        Warcraft III: Reign of Chaos e sua expansão, The Frozen Throne.</p>
+                </div>
+                <div class="left">
+                    <h1>Heroes of Newerth</h1>
+                    <p>Heroes of Newerth é um videogame multiplayer online de arena de batalha desenvolvido 
+                        originalmente pela S2 Games para Microsoft Windows, Mac OS X e Linux. A ideia do jogo 
+                        foi derivada do mapa personalizado de Warcraft III: The Frozen Throne Defense of the Ancients 
+                        e foi o primeiro título MOBA da S2 Games</p>
+                </div>
+            </div>
+            <div style="display: none" class="conteudoDinamico" id="FPS">
+                <div class="left">
+                    <h1>Counter Strike</h1>
+                    <p>Counter-Strike é uma série de videogames multiplayer de tiro em primeira pessoa em que
+                         equipes de terroristas lutam para perpetrar um ato de terror enquanto os contra-terroristas 
+                         tentam evitá-lo. A série começou no Windows em 1999 com o lançamento do primeiro jogo, Counter-Strike.</p>
+                </div>
+                <div class="right">
+                    <h1>Valorant</h1>
+                    <p>Valorant é um jogo de tiro tático em primeira pessoa multiplayer gratuito desenvolvido e publicado pela 
+                        Riot Games, para Microsoft Windows. Apresentado pela primeira vez sob o codinome Projeto A em outubro 
+                        de 2019, o jogo iniciou um período de beta fechado com acesso limitado em 7 de abril de 2020, 
+                        seguido pelo lançamento oficial em 2 de junho de 2020.</p>
+                </div>
+                <div class="left">
+                    <h1>Call Of Duty</h1>
+                    <p>Call of Duty é uma franquia de videogame de tiro em primeira pessoa publicada pela Activision. 
+                        Começando em 2003, primeiro se concentrou em jogos ambientados na Segunda Guerra Mundial. 
+                        Com o tempo, a série viu jogos ambientados no meio da Guerra Fria, mundos futuristas e espaço sideral</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script src="script.js"></script>
+
+</html>
+
